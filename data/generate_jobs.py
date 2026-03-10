@@ -21,7 +21,7 @@ skills_pool = [
         "Airflow", "Git", "Linux", "REST APIs", "CI/CD"
     ]
 def job(id):
-    id = random.randint(1,1000)
+    id = id
     company =faker.company()
     job_title = random.choice(job_titles)
     years_of_experience= random.randint(1,20)

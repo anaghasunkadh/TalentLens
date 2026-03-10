@@ -21,7 +21,7 @@ skills_pool = [
         "Airflow", "Git", "Linux", "REST APIs", "CI/CD"
     ]
 def candidate(id):
-    id = random.randint(1,1000)
+    id = id
     name =faker.name()
     email = faker.email()
     job_title = random.choice(job_titles)
